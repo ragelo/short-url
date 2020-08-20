@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Short URL builder</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css">
+</head>
+<body>
+    <h1 class="text-center">SHRL</h1>
+    <h3 class="text-center">Generate permanent short url for your links</h3>
+
+    <div class="container-fluid fg-red" id="error-box"></div>
+
+    <div class="container-fluid">
+        <form>
+            <div class="form-group">
+                <label>Original URL</label>
+                <input id="form-url-input" type="url" placeholder="Enter the URL"/>
+            </div>
+            <div class="form-group">
+                <input id="generate_btn" class="button" value="Generate">
+            </div>
+        </form>
+    </div>
+
+    <div class="container-fluid">
+        <table id="history-table" class="table">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Short URL</th>
+                <th>Original</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</body>
+</html>
