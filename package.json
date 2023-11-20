@@ -20,7 +20,7 @@
     "ioredis": "^4.17.3",
     "morgan": "^1.10.0",
     "shortid": "^2.2.15",
-    "validator": "^13.1.1"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
